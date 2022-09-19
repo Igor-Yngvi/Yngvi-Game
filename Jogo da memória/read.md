@@ -1,4 +1,4 @@
-
+<body>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
 	<title>Genius</title>
@@ -30,6 +30,5 @@
 		</table>
 		<button id="bt" onclick="slc(1)">Começe</button>
 	</div>
-	<footer>
-	</footer>
 <script src="js/script.js"></script>
+</body>
