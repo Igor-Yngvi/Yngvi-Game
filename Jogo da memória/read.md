@@ -1,11 +1,9 @@
-<head>
+
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
 	<title>Genius</title>
 	
 	<link rel = "icon" href ="img/fav-icon.png" type = "image/x-icon"> 
-</head>
-<body>
 	<header>
 		<div class="switch__container">
 			<input id="switch-flat" class="switch switch--flat" type="checkbox" onclick="tema()">
@@ -34,5 +32,4 @@
 	</div>
 	<footer>
 	</footer>
-</body>
 <script src="js/script.js"></script>
