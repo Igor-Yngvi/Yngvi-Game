@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*Config. display*/
+body{
+		overflow: hidden;
+} 
+
+.display{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/*Config. botao*/
+header{
+	display: inline-block;
+}
+.switch {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: scale(0.5);
+  border: 1px solid rgba(33, 1, 74, 0.87);
+  background-color: white;
+}
+#tema {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: scale(0.5);
+  opacity: 0;
+}
+/*Config. estilo do jogo*/
+.conteudo{
+	margin-top: 30px;
+}
+.conteudo, .game{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	background-color: #e9e9e9;
+	padding: 3px;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.conteudo table td{
+	border: 1px solid black;	
+}
+
+.conteudo table td:hover{
+	opacity: 0.4;
+	transform: scale(0.99);
+	background-color: #ffffff;
+	
+}
+/*Config. Botão*/
+#bt{
+        background-color: #7b38d8;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 18px;
+        width: 100px;
+		height: 50px;
+        cursor: pointer;
+        margin: 20px;
+		margin-left: 150px;
+}
